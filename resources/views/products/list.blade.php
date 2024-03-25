@@ -5,6 +5,7 @@
 @section('content')
     <div class="container">
         <h1 class="text-center">Products</h1>
+        <a href="{{ route('products.create') }}" class="btn btn-primary">Create Product</a>
         <div id="products-container" class="d-flex flex-wrap justify-content-center">
 
         </div>
