@@ -40,6 +40,7 @@
                 success: function(response) {
                     // Handle success response
                     console.log(response.message);
+                    window.location.href = '/';
                 },
                 error: function(xhr, status, error) {
                     // Handle validation errors
